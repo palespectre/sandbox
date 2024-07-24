@@ -16,6 +16,12 @@ export default function Home() {
       <Link className={styles.link} href="/text-opacity">
         Text opacity
       </Link>
+      <Link className={styles.link} href="/text-zoom">
+        Text zoom
+      </Link>
+      <Link className={styles.link} href="/image-zoom">
+        Image zoom
+      </Link>
     </main>
   );
 }

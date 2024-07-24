@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  height: 200vh;
+}
+
+.stickyWrapper {
+  position: sticky;
+  height: 50vh;
+  top: 40vh;
+}
+
+.scaleWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper {
+  width: 25vw;
+  height: 25vh;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

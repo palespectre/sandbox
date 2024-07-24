@@ -14,7 +14,7 @@ export default function Page() {
   });
 
   return (
-    <main>
+    <main className={styles.main}>
       <div style={{ height: "80vh" }} />
       <div ref={containerRef}>
         <Slider

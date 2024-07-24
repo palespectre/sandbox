@@ -1,0 +1,38 @@
+.main {
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  height: 350vh;
+}
+
+.stickyWrapper {
+  position: sticky;
+  height: 100vh;
+}
+
+.scaleWrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  z-index: 1;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+
+  h1 {
+    font-size: 4vw;
+    padding: 0 20vw;
+  }
+}

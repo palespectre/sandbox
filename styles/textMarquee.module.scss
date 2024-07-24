@@ -1,0 +1,52 @@
+.sliderWrapper {
+  &:nth-of-type(2),
+  &:nth-of-type(4) {
+    .slider {
+      font-weight: bold;
+    }
+
+    .phrase {
+      transform: skewX(-20deg);
+    }
+
+    .text {
+      font-size: 11vw;
+    }
+
+    .imageWrapper {
+      width: 12rem;
+      height: 7rem;
+    }
+  }
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  width: 200vw;
+}
+
+.phrase {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.text {
+  font-size: 9vw;
+}
+
+.imageWrapper {
+  display: block;
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 2vw;
+
+  img {
+    object-fit: cover;
+  }
+}

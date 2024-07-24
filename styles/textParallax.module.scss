@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+
+  &:nth-of-type(2) {
+    font-weight: bold;
+
+    .phrase {
+      transform: skewX(-20deg);
+    }
+
+    .text {
+      font-size: 9vw;
+    }
+
+    .imageWrapper {
+      width: 12rem;
+      height: 7rem;
+    }
+  }
+}
+
+.phrase {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.text {
+  font-size: 7vw;
+}
+
+.imageWrapper {
+  display: block;
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 2vw;
+
+  img {
+    object-fit: cover;
+  }
+}

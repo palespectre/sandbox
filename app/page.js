@@ -22,6 +22,9 @@ export default function Home() {
       <Link className={styles.link} href="/image-zoom">
         Image zoom
       </Link>
+      <Link className={styles.link} href="/image-transition">
+        Image transition
+      </Link>
     </main>
   );
 }

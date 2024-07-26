@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { m, useScroll, useTransform } from "framer-motion";
 
-import styles from "../../styles/textMarquee.module.scss";
+import styles from "./textMarquee.module.scss";
 
 export default function Page() {
   const containerRef = useRef(null);

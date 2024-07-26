@@ -1,0 +1,66 @@
+.links {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 1;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  height: 700vh;
+}
+
+.images,
+.texts {
+  position: sticky;
+  top: 0;
+  flex: 1;
+  height: 100vh;
+}
+
+.imageWrapper,
+.bubbles,
+.text {
+  position: absolute;
+  top: 0;
+  width: 45vw;
+  height: 100vh;
+}
+
+.imageWrapper {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.imageWrapper2 {
+  mask-image: url(#mask2);
+}
+
+.imageWrapper3 {
+  mask-image: url(#mask3);
+}
+
+.bubbles {
+  circle {
+    transform: scale(0);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  font-size: 3vw;
+
+  &:nth-child(2),
+  &:nth-child(3) {
+    opacity: 0;
+  }
+}

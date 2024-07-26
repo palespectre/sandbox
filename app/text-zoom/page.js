@@ -1,10 +1,9 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
 import { m, useScroll, useTransform } from "framer-motion";
 
-import styles from "../../styles/textZoom.module.scss";
+import styles from "./textZoom.module.scss";
 
 export default function Page() {
   const containerRef = useRef(null);

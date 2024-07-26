@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { m, useScroll, useTransform } from "framer-motion";
+import { m, useScroll } from "framer-motion";
 
-import styles from "../../styles/textPath.module.scss";
+import styles from "./textPath.module.scss";
 
 export default function Page() {
   const containerRef = useRef(null);

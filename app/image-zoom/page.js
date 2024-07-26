@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { m, useScroll, useTransform } from "framer-motion";
 
-import styles from "../../styles/imageZoom.module.scss";
+import styles from "./imageZoom.module.scss";
 
 export default function Page() {
   const containerRef = useRef(null);
@@ -15,7 +15,7 @@ export default function Page() {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 4]);
 
   return (
-    <main>
+    <main className={styles.main}>
       <div style={{ height: "80vh" }} />
       <div ref={containerRef} className={styles.wrapper}>
         <div className={styles.stickyWrapper}>

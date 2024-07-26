@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { m, useScroll, useTransform } from "framer-motion";
 
-import styles from "../../styles/textParallax.module.scss";
+import styles from "./textParallax.module.scss";
 
 export default function Page() {
   const containerRef = useRef(null);
